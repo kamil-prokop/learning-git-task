@@ -5,3 +5,4 @@ lista_zakupow = {
 }
 for shop, product in lista_zakupow.items():
     print("Idę do", shop, "i kupuję tam", product)
+
