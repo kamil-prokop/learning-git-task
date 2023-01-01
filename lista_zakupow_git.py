@@ -4,7 +4,7 @@ lista_zakupow = {
     "warzywniak": ["marchew", "seler", "rukola"]
 }
 for shop, product in lista_zakupow.items():
-    print("Idę do", shop.capitalize(), "i kupuję tam", product.title())
+    print("Idę do", shop.capitalize(), "i kupuję tam", str(product).title())
 
 counting = 0
 for shop, product in lista_zakupow.items():
