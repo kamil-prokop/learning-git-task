@@ -13,3 +13,4 @@ for shop, product in lista_zakupow.items():
         counting = counting + 1
 
 print("W sumie kupuję", counting, "produktów.")
+print("Można kończyć zakupy")
