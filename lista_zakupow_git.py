@@ -3,6 +3,7 @@ lista_zakupow = {
     "piekarnia": ["chleb", "pączek", "bułki"],
     "warzywniak": ["marchew", "seler", "rukola"]
 }
+print("Krótka instrukcja:")
 for shop, product in lista_zakupow.items():
     print("Idę do", shop.capitalize(), "i kupuję tam", str(product).title())
 
